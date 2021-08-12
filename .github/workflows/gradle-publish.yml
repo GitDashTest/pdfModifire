@@ -4,6 +4,11 @@
 name: Gradle Package
 
 on:
+  pull_request:
+  push:
+    branches:
+      -masters
+      -develop
   release:
     types: [created]
 
